@@ -1,0 +1,85 @@
+*{
+    font-family: 'Bangers', cursive;
+}
+
+body {
+    background: linear-gradient(rgba(84, 30, 122, 0.4), rgba(84, 30, 122, 0.4)), url(../gif/terminal.gif);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #ffff;
+    margin-top: 100px;
+}
+
+#cho {
+    margin-top: -30px;
+}
+
+.pilulas {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btnblue {
+    -webkit-animation-delay: 4s;
+    margin-right: 15%;
+}
+
+.btnblue h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.btnred {
+    -webkit-animation-delay: 4s;
+    margin-left: 15%;
+}
+
+.btnred h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.btnred img {
+    width: 500px;
+}
+
+.btnblue img{
+    width: 500px;
+}
+
+@media(max-width: 480px) {
+    .title h1 {
+        font-size: 28px;
+    }
+
+    #cho {
+        margin-top: 65px
+    }
+
+    .pilulas {
+        display: flex;
+        margin-top: 65px;
+    }
+
+    .btnred {
+        margin-left: 35px;
+        font-size: 20px;
+    }
+
+    .btnblue {
+        margin-left: -130px
+    }
+    .btnred img {
+        width: 230px;
+    }
+    .btnblue img {
+        width: 230px;
+        margin-top: -11px;
+    }   
+}
